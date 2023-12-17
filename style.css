@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.wrapper{
+  
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+.block-1{
+  width: 170.25px;
+  height: 25vh;
+  background-color: #000;
+  background-image: linear-gradient(to top left, red, yellow);
+  border-radius: 50%;
+  font-weight: bold;
+}
+.block-2{
+  width: 170.25px;
+  height: 25vh;
+  background-color: --burlywood;
+}
+
+
+.tamil, .zee{
+  color: #fff;
+  display: flex;
+  min-height: 100vh;
+  justify-content: rght;
+  margin: 30% 0;
+  
+  font-size: 3.5em;
+}
+
+.tamil{
+  color: hsl(13, 87%, 56%);
+  margin-left: 10%;
+}
+.zee{
+  margin-left: 39.3%;
+  
+}
